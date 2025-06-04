@@ -480,14 +480,6 @@ footer section{
     margin-top: 40px;
     color: #FFFFFF;
 }
-.tt{
-    font-size: 26px;
-    font-weight: 700;
-    position: absolute;
-    color: #5B9BF3;
-    top: 113px;
-    left: 244px;
-}
 
 .footerimg1{
     position: absolute;
@@ -502,6 +494,10 @@ footer section{
 }
 
 .menu{
+    display: none;
+}
+
+.heroimg12{
     display: none;
 }
 /* end of footer styling */
@@ -529,23 +525,23 @@ footer section{
         color: #458FF6;
         margin-top: -8px;
     }
-
-    .heroimgsec {
-        display: none;
+    .heroimg12{
+        display: block;
+        width: 100;
+        margin-top: -70px;
     }
-
-    main {
-        background-image: url(./images/trafalgar-header\ illustration\ 1.png);
-        height: 400px;
-        margin-top: 0px;
+    .heroimg12 img {
+        width: 100%;
     }
-
     .herosec{
         flex-direction: column;
         gap: 0px;
         padding: 0px;
     }
 
+    .heroimg, .heroimgsec{
+        display: none;
+    }
     .herotext h1 {
         font-size: 22px;
         text-align: center;
@@ -597,19 +593,18 @@ footer section{
         display: none;
     }
 
-    .leadingimg{
-        display: none;
+    .leading img{
+        width: 100%;
     }
 
-    .leading {
-        background-image: url(./images/trafalgar-illustration\ sec02\ 1.png);
-        margin-top:80px;
-        height: 500px;
-    }
+   .leading{
+    flex-direction: column;
+    margin-top: 130px;
+   }
 
     .lead{
         text-align: center;
-        margin-top: 70px;
+        margin-top: -190px;
     }
     .lead h2, .download h2 {
         font-size: 22px;
@@ -631,23 +626,22 @@ footer section{
         width: 100%;
         color: #fff;
         background-color: #458FF6;
+        margin-top: 0px;
     }
 
-    .down2 img{
-        display: none;
+    .download{
+        flex-direction: column;
     }
 
     .download{
         flex-direction: column;
         margin-top: 100px;
     }
-    
-    .downsec{
-        background-image: url(./images/trafalgar-illustration\ sec03\ 1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 450px;
 
+    .down2 img{
+        width: 100%;
+        margin-top: -150px;
+        margin-bottom:-100px;
     }
 
     .milli{
@@ -658,6 +652,7 @@ footer section{
         width: 100%;
         color: #FFFFFF;
         background-color: #458FF6;
+        margin-top: 0px;
     }
 
     .gradient {
@@ -734,7 +729,7 @@ footer section{
     }
 
     footer {
-        height: 1200px;
+        height: 1250px;
     }
 
     .logosectt {
